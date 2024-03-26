@@ -1,0 +1,38 @@
+#skills{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.skillTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.skillDesc{
+    font-size: 1.2rem;
+    font-weight: 400;
+    max-width: 61rem;
+    padding: 0 2rem;
+    line-height: 35px;
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+}
